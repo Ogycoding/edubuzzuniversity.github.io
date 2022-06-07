@@ -1,0 +1,45 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	
+	.logo {display:flex; flex-direction: column;}
+	.logo-left {width:50%; height:auto}
+	.logo-right {width:50%; height:auto;}
+
+	.apply-btn {margin:1.3rem 0}
+	.navbar-light .navbar-toggler {background:#f1f1;}
+	.navbar-expand-lg .navbar-nav .nav-link {padding:10px 0 0 0}
+	
+	.about-txt {margin:40px 0}
+	
+	.learn-img {width:100%; padding:1rem 0}
+	
+	.let-help {text-align:center; margin-bottom:20px}
+	
+	.about-img {width:100%; height:auto}
+	
+	.user-name input {width:85%}
+	.password input {width:85%}
+	.pass-case {width:60%}
+	.lggin-page {margin:0 15px; }
+	.impot-info { margin: 20px -15px;}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+	.navbar-expand-lg .navbar-nav .nav-link {margin:0; padding:0.5rem 0;}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	.navbar-expand-lg .navbar-nav .nav-link {margin:0; padding:0 1rem;}
+	
+}
